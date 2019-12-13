@@ -2,26 +2,36 @@
 body {
     overflow-x: hidden;
     transition: 2s ease;
-    background-image: url('../Images/background1.jpg') 
+    
+    
+    
+    
+
 }
+
 .nav-fixe {
     background-color:#172808;
     display: flex;
     align-items: center;
     height: 130px;
-    position: fixed;
+    position: absolute;
     width: 100%;
+    /*
     margin-top: -140px;
+*/
 }
 
 
 .lateralMenu {
     height: 100%;
+    
     width: 0;
+   
     top: 131px;
+    
     left: 0;
     z-index: 1;
-    position: fixed;
+    position: absolute;
     overflow-x: hidden;
     padding-top: 50px;
     background-color: black;
@@ -34,11 +44,16 @@ body {
 
 }
 
-.test ul {
-    -moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
+.lateralMenu .closeBouton {
+    position: relative; 
+ font-size: 40px; 
+ color: white;
+ border: none;
+ text-decoration: none;
+ background-color: transparent;
 }
+
+
 
 a {
     display: flex;
@@ -65,9 +80,14 @@ a {
   }
 
 #main {
-    margin-top: 140px;
     transition: 1s ease;
-    padding:0 10px 0 10px;
+    padding-top:240px ;
+    background-image: url('../Images/background2.jpg')  ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
     
     
 }
