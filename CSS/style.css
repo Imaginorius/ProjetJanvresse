@@ -1,7 +1,6 @@
 #general {
   margin-left: -50%;
   margin-top: 10%;
-  padding: 50%;
   z-index: 2;
 }
 
@@ -167,27 +166,34 @@ li {
     transform: translateX(-1000px) translateY(300px);
   }
 }
-.rectangle {
-  margin-top: 25%;
-  width: 100%;
-  height: 30px;
-  border-radius: 50%;
-  animation: 4s ease infinite moove;
+#bouton {
+  height: 50px;
+  width: 80px;
+  border-radius: 5%;
 }
 
-@keyframes moove {
-  0% {
-    background-color: black;
-    transform: rotate(50deg);
+/*
+.rectangle {
+    margin-top: 25%;
+    width: 100%;
+    height: 30px;
+    border-radius: 50%;
+    animation: 4s ease infinite moove;
   }
-  50% {
-    background-color: violet;
-    transform: rotate(-50deg);
-  }
-  100% {
-    background-color: black;
-    transform: rotate(50deg);
-  }
-}
+
+  @keyframes moove {
+    0% {
+      background-color: black;
+      transform: rotate(50deg);
+    }
+    50% {
+      background-color: violet;
+      transform: rotate(-50deg);
+    }
+    100% {
+      background-color: black;
+      transform: rotate(50deg);
+    }
+  }*/
 
 /*# sourceMappingURL=style.css.map */
