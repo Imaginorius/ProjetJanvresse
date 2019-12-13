@@ -77,33 +77,34 @@ a {
   height: 800px;
 }
 
-/*
-   #loader {
-    border: 16px solid #f3f3f3; 
-    border-top: 16px solid #3498db; 
-    border-radius: 50%;
-    animation: spin 2s linear infinite;
-    margin-left: -50%;
-    margin-top: 10%;
-        position: fixed;
-        z-index: 999;
-        height: 4em;
-        width: 4em;
-        overflow: visible;
-        margin: auto;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
+#loader {
+  opacity: 0;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  margin-left: -50%;
+  margin-top: 10%;
+  position: fixed;
+  z-index: 999;
+  height: 4em;
+  width: 4em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  100% {
+    transform: rotate(360deg);
   }
-  */
+}
 #main h1 {
   text-align: center;
 }
