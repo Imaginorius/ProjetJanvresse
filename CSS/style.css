@@ -6,13 +6,15 @@
 body {
   overflow-x: hidden;
   transition: 2s ease;
+  background-image: url("../Images/background4.jpg");
+  background-position: center;
 }
 
 .nav-fixe {
-  background-color: #172808;
+  background-color: #22223c;
   display: flex;
   align-items: center;
-  height: 130px;
+  height: 70px;
   position: absolute;
   width: 100%;
   /*
@@ -21,15 +23,16 @@ body {
 }
 
 .lateralMenu {
-  height: 100%;
+  margin-top: 70px;
+  height: 100vh;
   width: 0;
-  top: 131px;
   left: 0;
+  top: 0;
   z-index: 1;
   position: absolute;
   overflow-x: hidden;
   padding-top: 50px;
-  background-color: black;
+  background-color: #190913;
   transition: 1s ease;
 }
 
@@ -38,9 +41,11 @@ body {
 }
 
 .lateralMenu .closeBouton {
+  margin-top: 0;
   position: relative;
   font-size: 40px;
-  color: white;
+  margin-left: 150px;
+  color: purple;
   border: none;
   text-decoration: none;
   background-color: transparent;
@@ -58,7 +63,7 @@ a {
 }
 
 .titremenu {
-  background-color: cadetblue;
+  background-color: #085b51;
 }
 
 .Navbouton {
@@ -67,15 +72,38 @@ a {
 
 #main {
   transition: 1s ease;
-  padding-top: 240px;
-  background-image: url("../Images/background2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  z-index: 10;
   width: 100%;
-  height: 100vh;
+  height: 800px;
 }
 
+/*
+   #loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db; 
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    margin-left: -50%;
+    margin-top: 10%;
+        position: fixed;
+        z-index: 999;
+        height: 4em;
+        width: 4em;
+        overflow: visible;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+  }
+
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  */
 #main h1 {
   text-align: center;
 }
@@ -92,12 +120,8 @@ ul :hover .sousmenu {
   display: block;
 }
 
-li {
-  transition-duration: 8s;
-}
-
 .sousmenu a:hover {
-  background-color: chartreuse;
+  background-color: #ff435b;
 }
 
 /*# sourceMappingURL=style.css.map */
