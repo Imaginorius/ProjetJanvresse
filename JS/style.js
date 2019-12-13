@@ -31,10 +31,21 @@ function closeNav() {
     document.getElementById("main").style.marginLeft="0";
 }
 
-function bouge () {
- // var elem = document.getElementById("drift");
- // document.getElementById("general").style.marginLeft="50px";
-}
+let cache2 = document.getElementById("cache2");
+let gen = document.getElementById("gen");
 
+function cache(){
+  if(getComputedStyle(gen).display != "none"){
+      gen.style.display = "none";
+  } else {
+      gen.style.display = "block";
+  }
+  };
+  cache2.onclick = cache;
+
+function afficher () {
+ //document.getElementById("cache").style.display = none;
+ document.getElementById('gen').classList.add('perso-anim');
+}
 
 
