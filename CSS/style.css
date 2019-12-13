@@ -6,6 +6,7 @@
 body {
   overflow-x: hidden;
   transition: 2s ease;
+  background-image: url("../Images/background1.jpg");
 }
 
 .nav-fixe {
