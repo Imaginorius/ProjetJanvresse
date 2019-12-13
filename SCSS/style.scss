@@ -1,8 +1,8 @@
 @import "variables";
 
 
-.general {
-    margin-left: 50%;
+#general {
+    margin-left: -50%;
     margin-top: 10%;
     z-index: 2;
 }
@@ -192,15 +192,15 @@ li {
   
   @keyframes moove {
     0% {
-      background-color: yellow;
+      background-color: black;
       transform: rotate(50deg);
     }
     50% {
-      background-color: orange;
+      background-color: violet;
       transform: rotate(-50deg);
     }
     100% {
-      background-color: yellow;
+      background-color: black;
       transform: rotate(50deg);
     }
   }

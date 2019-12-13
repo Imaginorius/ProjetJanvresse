@@ -28,7 +28,7 @@ function closeNav() {
 }
 
 function bouge () {
-  var elem = document.getElementById("drift");
-  
+ // var elem = document.getElementById("drift");
+  document.getElementById("general").style.marginLeft="50px";
 }
 
