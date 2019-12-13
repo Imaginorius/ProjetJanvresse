@@ -140,4 +140,53 @@ li {
   background-color: chartreuse;
 }
 
+.perso {
+  height: 306px;
+  width: 260px;
+  animation: 2s ease infinite perso-anim;
+}
+
+@keyframes perso-anim {
+  0% {
+    transform: translateX(10px) translateY(300px);
+  }
+  25% {
+    transform: translateX(500px) translateY(0px);
+  }
+  50% {
+    transform: translateX(1000px) translateY(-300px);
+  }
+  75% {
+    transform: translateX(-10px) translateY(-300px);
+  }
+  80% {
+    transform: translateX(-500px) translateY(0px);
+  }
+  100% {
+    transform: translateX(-1000px) translateY(300px);
+  }
+}
+.rectangle {
+  margin-top: 25%;
+  width: 100%;
+  height: 30px;
+  border-radius: 50%;
+  animation: 10s ease infinite moove;
+}
+
+@keyframes moove {
+  0% {
+    background-color: yellow;
+    transform: rotate(50deg);
+  }
+  50% {
+    background-color: orange;
+    transform: rotate(-50deg);
+  }
+  100% {
+    background-color: yellow;
+    transform: rotate(50deg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
