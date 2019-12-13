@@ -14,8 +14,7 @@
         top: 0;
         left: 0;
         bottom: 0;
-        right: 0;
-      
+        right: 0; 
 }
 
 .loader {
@@ -170,7 +169,7 @@ li {
 .perso {
     height: $height-perso;
     width: $width-perso;
-    animation: 2s ease infinite perso-anim;
+    animation: 5s ease infinite perso-anim;
 }
 
 @keyframes perso-anim {
@@ -190,11 +189,11 @@ li {
         transform: translateX(-500px) translateY(-0px);
     }
     100% {
-        transform: translateX(-1000px) translateY(300px);
+        transform: translateX(10px) translateY(300px);
     }
 }
 
-#bouton {
+.bouton {
     height: 50px;
     width: 80px;
     border-radius: 5%;

@@ -43,9 +43,12 @@ function cache(){
   };
   cache2.onclick = cache;
 
+
 function afficher () {
  //document.getElementById("cache").style.display = none;
  document.getElementById('gen').classList.add('perso-anim');
 }
+
+
 
 
