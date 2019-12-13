@@ -31,6 +31,3 @@ function closeNav() {
     */
 }
 
-function charload() {
-  document.getElementById("loader").style.opacity="1";
-}
