@@ -36,3 +36,5 @@ function bouge () {
  // document.getElementById("general").style.marginLeft="50px";
 }
 
+
+
