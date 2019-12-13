@@ -1,4 +1,56 @@
+@import "variables";
+
+.loader {
+    width: $width-loader;
+    height: $height-loader;
+    border: solid 5px;
+    border-radius: 20%;
+    animation: 10s ease infinite loader-animation;
+}
+
+@keyframes loader-animation {
+    0% {
+        transform: rotate(50deg);
+        border: solid $color-loader;
+    }
+    50% {
+        transform: rotate(-50deg);
+        border: solid $color-loader-two;
+    }
+    100% {
+        transform: rotate(50deg);
+        border: solid $color-loader;
+    }
+
+}
+
+.loader2 {
+    width: $width-loader;
+    height: $height-loader;
+    border: solid 5px;
+    border-radius: 20%;
+    animation: 2s ease infinite loader2-animation;
+}
+
+@keyframes loader2-animation {
+    0% {
+        transform: rotate(-50deg);
+        border: solid $color-loader;
+    }
+    50% {
+        transform: rotate(50deg);
+        border: solid $color-loader-two;
+    }
+    100% {
+        transform: rotate(-50deg);
+        border: solid $color-loader;
+    }
+
+}
+
+
 *{margin:0; padding: 0;}
+
 body {
     overflow-x: hidden;
     transition: 2s ease;
